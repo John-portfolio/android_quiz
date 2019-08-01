@@ -29,9 +29,9 @@
             android:layout_marginTop="100dp"
             android:fontFamily="serif"
             android:text="@string/image_title"
-            android:textStyle="bold"
             android:textColor="#ff0000"
-            android:textSize="45sp" />
+            android:textSize="45sp"
+            android:textStyle="bold" />
 
         <!-- Question #1 -->
         <LinearLayout
@@ -356,12 +356,12 @@
         <Button
             android:id="@+id/submit_button"
             android:layout_width="wrap_content"
-            android:background="@color/colorAccent"
             android:layout_height="wrap_content"
             android:layout_below="@id/question_7"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
             android:onClick="submitAnswers"
             android:text="@string/submit_btn_text"
             android:textSize="14sp" />
@@ -373,11 +373,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
+            android:layout_below="@id/submit_button"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
-            android:textStyle="italic"
-            android:layout_below="@id/submit_button"
-            android:text="@string/copyright_notice" />
+            android:text="@string/copyright_notice"
+            android:textStyle="italic" />
 
     </RelativeLayout>
 </ScrollView>

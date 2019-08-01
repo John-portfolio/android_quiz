@@ -3,7 +3,7 @@
     <string name="image_info">Android_quiz</string>
     <string name="image_title">Android Quiz</string>
 
-
+    <!-- Question Header strings-->
     <string name="question_1_header">Question #1</string>
     <string name="question_2_header">Question #2</string>
     <string name="question_3_header">Question #3</string>
@@ -12,7 +12,7 @@
     <string name="question_6_header">Question #6</string>
     <string name="question_7_header">Question #7</string>
 
-
+    <!-- Questions -->
     <string name="question_1_question">______ is an operating system developed by Google for mobile devices.</string>
     <string name="question_2_question">String is an immutable object.</string>
     <string name="question_3_question">Which of the following are data types in Java.</string>
@@ -21,7 +21,7 @@
     <string name="question_6_question">Which of these filenames would be used for android application styles?</string>
     <string name="question_7_question">This Android layout uses the orientation attribute.</string>
 
-
+    <!-- Reponses -->
     <string name="question_1_hint">Answer</string>
     <string name="question_5_hint">Answer</string>
 
@@ -45,8 +45,7 @@
     <string name="question_7_relative_button">RelativeLayout</string>
     <string name="question_7_linear_button">LinearLayout</string>
 
+    <!-- Misc Strings -->
     <string name="submit_btn_text">Submit</string>
     <string name="copyright_notice"><![CDATA[<em>Header Image<em> - <a href="https://www.flickr.com/photos/rbulmahn/6180104944">Android Lineup - Beige</a> Rob Buhlmahn is licensed under <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>]]></string>
-
-
 </resources>

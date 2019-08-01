@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Called from view to score the quiz
+     *
      * @param view
      */
     public void submitAnswers(View view) {
@@ -49,16 +50,18 @@ public class MainActivity extends AppCompatActivity {
             msg = "You have " + Integer.toString(answersCorrect) + " answers correct!\n Great Job!";
         } else if (answersCorrect >= 4) {
             msg = "You have " + Integer.toString(answersCorrect) + " answers correct!\n Study some more.";
-        } else msg = "You have " + Integer.toString(answersCorrect) + " answers correct!\n Good luck next time.";
+        } else
+            msg = "You have " + Integer.toString(answersCorrect) + " answers correct!\n Good luck next time.";
 
         //style Toast
-        Toast toast = Toast.makeText(this, msg , Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.CENTER,0,0);
+        Toast toast = Toast.makeText(this, msg, Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
     }
 
     /**
      * Score Question #1
+     *
      * @return score
      */
     private int scoreQuestionOne() {
@@ -76,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Score Question #2
+     *
      * @return score
      */
     private int scoreQuestionTwo() {
@@ -96,9 +100,11 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Score Question #3
+     *
      * @return score
      */
-    private int scoreQuestionThree() {;
+    private int scoreQuestionThree() {
+        ;
         int score = 0;
 
         CheckBox checkBox1 = (CheckBox) findViewById(R.id.q3_checkbox_1);
@@ -122,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Score Question #4
+     *
      * @return score
      */
     private int scoreQuestionFour() {
@@ -143,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Score Question #5
+     *
      * @return score
      */
     private int scoreQuestionFive() {
@@ -160,6 +168,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Score Question #6
+     *
      * @return score
      */
     private int scoreQuestionSix() {
@@ -186,6 +195,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Score Question #7
+     *
      * @return score
      */
     private int scoreQuestionSeven() {
